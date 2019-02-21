@@ -45,7 +45,15 @@
 		
 }
 
-.alignfull :hover{
+/*.alignfull :hover{
     filter: invert(100%);
 		
+}*/
+
+.alignfull   .blocks-gallery-item:hover{
+    filter: invert(90%);
+}
+
+.blocks-gallery-item:hover{
+    opacity: 0.5;
 }

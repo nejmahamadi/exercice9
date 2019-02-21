@@ -58,3 +58,7 @@
     opacity: 0.5;
     transform: scale(1.1);
 }
+
+.dessert{
+    filter: hue-rotate(180deg);
+}

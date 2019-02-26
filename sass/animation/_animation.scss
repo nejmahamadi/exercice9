@@ -1,0 +1,16 @@
+ .site-branding > .site-title{
+   background-color : #0f0;
+  animation: example 6s;
+
+}
+
+@keyframes example {
+  from {
+  // color: red;
+    opacity : .2;
+  }
+  to {
+  //  color: yellow;
+    opacity : 1;
+  } 
+}

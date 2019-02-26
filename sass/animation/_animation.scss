@@ -1,16 +1,69 @@
  .site-branding > .site-title{
-   background-color : #0f0;
-  animation: example 6s;
+  color: #000; 
+  font-size: 20px;
+  text-align:  left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  animation: type 3s steps(60, end);
 
 }
+@keyframes type{
+  from { width: 0; }
+}
 
-@keyframes example {
-  from {
-  // color: red;
-    opacity : .2;
+.site-description{
+  animation: anim 3s;
+}
+
+
+/*****************/
+@keyframes anim {
+  0% {
+    transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
   }
-  to {
-  //  color: yellow;
-    opacity : 1;
+  48% {
+    transform: translateX(-50%) rotateY(45deg) rotateX(90deg);
+  }
+  100% {
+    transform: translateX(0%) rotateY(0deg) rotateX(0deg);
   } 
 }
+
+/*******************/
+.entry-title{
+	color: #348c04;
+	opacity: 0;
+	transform: translate(-150px, 0) scale(.3);
+	animation: leftRight .5s forwards;
+}
+
+
+@keyframes leftRight {
+	40% {
+		transform: translate(50px, 0) scale(.7);
+		opacity: 1;
+		color: #348c04;
+	}
+
+	60% {
+		color: #0f40ba;
+	}
+
+	80% {
+		transform: translate(0) scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+

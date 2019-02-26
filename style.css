@@ -341,25 +341,113 @@ template {
 # site
 --------------------------------------------------------------*/
 .site-branding > .site-title {
-  background-color: #0f0;
-  -webkit-animation: example 6s;
-          animation: example 6s;
+  color: #000;
+  font-size: 20px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40em;
+  -webkit-animation: type 3s steps(60, end);
+          animation: type 3s steps(60, end);
 }
 
-@-webkit-keyframes example {
+@-webkit-keyframes type {
   from {
-    opacity: .2;
+    width: 0;
   }
-  to {
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+.site-description {
+  -webkit-animation: anim 3s;
+          animation: anim 3s;
+}
+
+/*****************/
+@-webkit-keyframes anim {
+  0% {
+    -webkit-transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
+            transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
+  }
+  48% {
+    -webkit-transform: translateX(-50%) rotateY(45deg) rotateX(90deg);
+            transform: translateX(-50%) rotateY(45deg) rotateX(90deg);
+  }
+  100% {
+    -webkit-transform: translateX(0%) rotateY(0deg) rotateX(0deg);
+            transform: translateX(0%) rotateY(0deg) rotateX(0deg);
+  }
+}
+@keyframes anim {
+  0% {
+    -webkit-transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
+            transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
+  }
+  48% {
+    -webkit-transform: translateX(-50%) rotateY(45deg) rotateX(90deg);
+            transform: translateX(-50%) rotateY(45deg) rotateX(90deg);
+  }
+  100% {
+    -webkit-transform: translateX(0%) rotateY(0deg) rotateX(0deg);
+            transform: translateX(0%) rotateY(0deg) rotateX(0deg);
+  }
+}
+
+/*******************/
+.entry-title {
+  color: #348c04;
+  opacity: 0;
+  -webkit-transform: translate(-150px, 0) scale(0.3);
+          transform: translate(-150px, 0) scale(0.3);
+  -webkit-animation: leftRight .5s forwards;
+          animation: leftRight .5s forwards;
+}
+
+@-webkit-keyframes leftRight {
+  40% {
+    -webkit-transform: translate(50px, 0) scale(0.7);
+            transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: #348c04;
+  }
+  60% {
+    color: #0f40ba;
+  }
+  80% {
+    -webkit-transform: translate(0) scale(2);
+            transform: translate(0) scale(2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(0) scale(1);
+            transform: translate(0) scale(1);
     opacity: 1;
   }
 }
 
-@keyframes example {
-  from {
-    opacity: .2;
+@keyframes leftRight {
+  40% {
+    -webkit-transform: translate(50px, 0) scale(0.7);
+            transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: #348c04;
   }
-  to {
+  60% {
+    color: #0f40ba;
+  }
+  80% {
+    -webkit-transform: translate(0) scale(2);
+            transform: translate(0) scale(2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(0) scale(1);
+            transform: translate(0) scale(1);
     opacity: 1;
   }
 }

@@ -1,0 +1,109 @@
+/***********************************/
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  1fr;
+    background-color: #fff;
+    color: #444;
+    margin:2%;
+}
+
+.box {
+    background-color:red;
+    color: #fff;
+    //padding: 20px;
+    font-size: 3vw;
+}
+@include media(mobile){
+
+   
+    .wrapper {
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #fff;
+        color: #444;
+        margin:2%;
+    }
+    
+    .box {
+        background-color:red;
+        color: #fff;
+        //padding: 20px;
+        font-size: 3vw;
+    }
+
+    
+
+}
+
+@include media(tablet){
+
+   
+    .wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #fff;
+        color: #444;
+        margin:2%;
+    }
+    
+    .box {
+        background-color:yellow;
+        color: #fff;
+        //padding: 20px;
+        font-size: 0.8vw;
+    
+    }
+    
+
+}
+
+@include media(desktop){
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    color: #444;
+    margin:2%;
+}
+
+.box {
+    background-color: #d4d4d4;
+    color: #fff;
+    //padding: 20px;
+    font-size: 0.8vw;
+
+}
+
+.entry-header{
+    margin-left:10px !important;
+    margin-right:10px !important;
+}
+
+}
+
+@include media(wide){
+
+   
+    .wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 1fr);
+        background-color: #fff;
+        color: #444;
+        margin:2%;
+    }
+    
+    .box {
+        background-color:rgb(184, 240, 184);
+        color: #fff;
+        //padding: 20px;
+        font-size: 0.8vw;
+    
+    }
+    
+
+}

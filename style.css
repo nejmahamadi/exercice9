@@ -263,6 +263,14 @@
   }
 }
 
+.category-cours .entry-content {
+  background-color: #def9d0;
+}
+
+.entry-header .entry-title {
+  color: black;
+}
+
 /*--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # site

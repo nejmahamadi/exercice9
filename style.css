@@ -44,9 +44,33 @@
 }
 
 .box {
-  background-color: #e2a9a9;
+  background-color: #8a8a8a;
   color: #fff;
   font-size: 3vw;
+}
+
+.session1 {
+  background-color: #e4f2f7;
+}
+
+.session2 {
+  background-color: #cadefb;
+}
+
+.session3 {
+  background-color: #cccafb;
+}
+
+.session4 {
+  background-color: #9696f0;
+}
+
+.session5 {
+  background-color: #bbedff;
+}
+
+.session6 {
+  background-color: #2abaef;
 }
 
 @media only screen and (min-width: 600px) {
@@ -59,7 +83,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #aa8383;
     color: #fff;
     font-size: 3vw;
   }
@@ -77,7 +100,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #f9f9bc;
     color: #fff;
     font-size: 0.8vw;
   }
@@ -95,7 +117,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #d4d4d4;
     color: #fff;
     font-size: 0.8vw;
   }
@@ -117,7 +138,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #b8f0b8;
     color: #fff;
     font-size: 0.8vw;
   }
@@ -144,9 +164,33 @@
 }
 
 .box {
-  background-color: #e2a9a9;
+  background-color: #8a8a8a;
   color: #fff;
   font-size: 3vw;
+}
+
+.session1 {
+  background-color: #e4f2f7;
+}
+
+.session2 {
+  background-color: #cadefb;
+}
+
+.session3 {
+  background-color: #cccafb;
+}
+
+.session4 {
+  background-color: #9696f0;
+}
+
+.session5 {
+  background-color: #bbedff;
+}
+
+.session6 {
+  background-color: #2abaef;
 }
 
 @media only screen and (min-width: 600px) {
@@ -159,7 +203,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #aa8383;
     color: #fff;
     font-size: 3vw;
   }
@@ -177,7 +220,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #f9f9bc;
     color: #fff;
     font-size: 0.8vw;
   }
@@ -195,7 +237,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #d4d4d4;
     color: #fff;
     font-size: 0.8vw;
   }
@@ -217,7 +258,6 @@
     margin: 2%;
   }
   .box {
-    background-color: #b8f0b8;
     color: #fff;
     font-size: 0.8vw;
   }

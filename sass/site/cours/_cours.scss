@@ -9,10 +9,30 @@
 }
 
 .box {
-    background-color:#e2a9a9;
+    background-color: rgb(138, 138, 138);
     color: #fff;
     //padding: 20px;
     font-size: 3vw;
+}
+
+.session1{
+    background-color:#e4f2f7;
+}
+.session2{
+    background-color: #cadefb;
+}
+.session3{
+    background-color: #cccafb;
+}
+.session4{
+    background-color: rgb(150, 150, 240);
+}
+.session5{
+    background-color: #bbedff;
+}
+.session6{
+    background-color:#2abaef;
+    
 }
 @include media(mobile){
 
@@ -26,14 +46,11 @@
     }
     
     .box {
-        background-color:rgb(170, 131, 131);
         color: #fff;
         //padding: 20px;
         font-size: 3vw;
     }
-
     
-
 }
 
 @include media(tablet){
@@ -49,7 +66,6 @@
     }
     
     .box {
-        background-color:#f9f9bc;
         color: #fff;
         //padding: 20px;
         font-size: 0.8vw;
@@ -71,7 +87,6 @@
 }
 
 .box {
-    background-color: #d4d4d4;
     color: #fff;
     //padding: 20px;
     font-size: 0.8vw;
@@ -98,12 +113,13 @@
     }
     
     .box {
-        background-color:rgb(184, 240, 184);
         color: #fff;
         //padding: 20px;
         font-size: 0.8vw;
     
     }
+
+    
     
 
 }
